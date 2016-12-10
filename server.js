@@ -1,16 +1,8 @@
 var app=require("express")();
 var request=require("request");
+var opt=require("./opt.js").opt;
 
-var opt={
-    key:"AIzaSyBlVIOEdggB5HA6dgkxU2khMoCbHjFsnmw",
-    cx:"015155236235863256901:tibzscr-s0c",
-    num:3,
-    q:"flower",
-    searchType:"image",
-    fileType:"jpg",
-    imgSize:"xlarge",
-    alt:"json"
-}
+
 var recent=[];
 var out=[];
 
